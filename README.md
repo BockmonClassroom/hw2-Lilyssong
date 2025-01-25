@@ -34,9 +34,6 @@ The dataset consists of the following attributes:
 3. **`data/summary_statistics.csv`**  
    - Contains computed mean, median, and standard deviation for each plant type.
 
-4. **`answers.pdf` (if applicable)**  
-   - Written responses to the data collection questions.
-
 ---
 
 ### **Questions Answered**
