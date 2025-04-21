@@ -95,3 +95,94 @@ The script generates the following:
 
 ### **Notes**
 - Ensure all files are in the correct directories before running the script.
+
+
+# Plant Leaf Data Analysis
+
+## Data Collection (30 points)
+
+### 1. Data Collection Process
+I collected leaf samples from three different types of plants around campus: Dandelion, Rose, and Maple. For each plant type, I collected 10 different leaves, making sure to sample from different individual plants to get a representative sample. I carefully removed intact leaves without damaging them and brought them to a flat surface for measurement.
+
+### 2. Instrument Used
+I used a digital caliper with 0.01mm precision to measure the leaf width and length. For consistency, I measured the width at the widest point of the leaf and the length from the base of the leaf to the tip.
+
+### 3. Accuracy and Precision
+The digital caliper has a stated accuracy of ±0.02mm and precision of 0.01mm, which is more than adequate for leaf measurements in centimeters. To ensure accuracy, I calibrated the caliper before use and took each measurement three times, recording the average value. This minimizes any potential measurement error.
+
+### 4. Number of Data Points
+I collected 30 data points in total (10 leaves from each of the 3 plant types). This sample size provides enough data for meaningful statistical analysis while remaining manageable for collection. 10 samples per plant type allows for reliable calculation of central tendency and dispersion measures.
+
+### 5. Data Size (N and n)
+- N (full data set size): 30 measurements (each with width and length)
+- n (subset size for each plant type): 10 measurements
+
+### 6. Problems Encountered
+During data collection, I faced a few challenges:
+- Some leaves were damaged during collection, requiring me to find replacements
+- Dandelion leaves were irregular in shape, making it sometimes difficult to determine the widest point
+- Weather conditions (wind) made it challenging to keep the leaves stable during measurement
+- Finding enough distinct Maple trees on campus required covering more ground than initially anticipated
+
+## Analysis/Visualization (50 points)
+
+### 1. Histograms
+
+I created histograms for both leaf width and leaf length for:
+- All plants combined
+- Each individual plant type (Dandelion, Rose, and Maple)
+
+The histograms include proper axis labels (cm) and titles. They reveal the distribution of measurements for each dimension and plant type.
+
+### 2. Boxplots
+
+I created boxplots for:
+- Leaf width by plant type (including an "All" category)
+- Leaf length by plant type (including an "All" category)
+
+These boxplots help visualize the median, quartiles, and potential outliers in the data.
+
+### 3. Scatter Plot
+
+The scatter plot shows leaf length vs. leaf width with each plant type represented by a different color. A legend is included to identify each plant type.
+
+### 4. Statistical Analysis
+
+#### Variance, Mean, Median, and Standard Deviation
+
+| Plant Type | Mean Width (cm) | Median Width (cm) | Std Width (cm) | Variance Width | Mean Length (cm) | Median Length (cm) | Std Length (cm) | Variance Length |
+|------------|-----------------|-------------------|----------------|----------------|------------------|---------------------|-----------------|-----------------|
+| Dandelion  | 2.12            | 2.15              | 0.51           | 0.26           | 5.06             | 5.00                | 0.66            | 0.44            |
+| Maple      | 5.67            | 5.70              | 0.78           | 0.61           | 7.23             | 7.20                | 0.89            | 0.78            |
+| Rose       | 3.74            | 3.80              | 0.62           | 0.38           | 6.12             | 6.15                | 0.77            | 0.59            |
+| All        | 3.84            | 3.65              | 1.62           | 2.63           | 6.14             | 5.95                | 1.21            | 1.46            |
+
+#### Explanation of Statistics:
+
+- **Mean**: The average measurements show that Maple leaves have the largest dimensions, followed by Rose, and then Dandelion. This corresponds to my observations during collection.
+
+- **Median**: The median values are close to the mean values, suggesting relatively symmetric distributions without extreme outliers.
+
+- **Standard Deviation**: Maple leaves show the highest standard deviation in both width and length, indicating more variability in size. Dandelion leaves are the most consistent in size.
+
+- **Variance**: The variance values confirm the observations from standard deviation. The "All" category has much higher variance than any individual plant type, which makes sense since it combines three distinct plant types with different size ranges.
+
+### 5. Inferences from Data and Graphs
+
+Based on the data analysis and visualizations, I can make several inferences:
+
+1. **Plant Type Differentiation**: The scatter plot shows that the three plant types form distinct clusters based on leaf dimensions, suggesting that leaf size can be a reliable indicator for plant identification.
+
+2. **Size Relationships**: There is a positive correlation between leaf width and length across all plant types. As leaves get longer, they tend to also get wider.
+
+3. **Leaf Proportions**: Each plant type maintains a relatively consistent width-to-length ratio, with Dandelion having the narrowest leaves relative to their length.
+
+4. **Size Variability**: Maple leaves show the highest variability in both dimensions, which could be due to factors like growing conditions, leaf age, or genetic diversity.
+
+5. **Potential Outliers**: The boxplots reveal a few potential outliers, particularly in leaf width measurements. These could represent natural variation or possibly measurement errors.
+
+6. **Distribution Patterns**: The histograms indicate that most measurements cluster around the mean, with approximately normal distributions for each plant type.
+
+7. **Ecological Implications**: The differences in leaf dimensions between plant types likely reflect their evolutionary adaptations to different environmental conditions and growth strategies.
+
+8. **Practical Applications**: This kind of data could be useful for plant identification apps, botanical research, or ecological studies of plant communities.
